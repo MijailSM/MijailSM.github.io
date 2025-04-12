@@ -1,10 +1,10 @@
-<!-- Página principal https://MijailSM.github.io/ -->
+<!-- Página de proyectos -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mijaíl Sazhin Martín</title>
+  <title data-i18n="nav.projects">Projects</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <script defer src="assets/js/lang.js"></script>
   <script defer src="assets/js/theme.js"></script>
@@ -25,54 +25,40 @@
             <div class="dropdown-content">
               <img src="assets/img/flags/en.svg" onclick="setLang('en')" alt="English" />
               <img src="assets/img/flags/es.svg" onclick="setLang('es')" alt="Español" />
-              <!--<img src="assets/img/flags/fr.svg" onclick="setLang('fr')" alt="Français" /></-->
+              <img src="assets/img/flags/fr.svg" onclick="setLang('fr')" alt="Français" />
             </div>
           </div>
         </li>
         <li class="theme-toggle">
           <button onclick="toggleTheme()" id="theme-button">🌙</button>
         </li>
-      </ul>      
+      </ul>
     </nav>
   </header>
 
   <main>
-    <section class="intro">
-      <img src="assets/img/profile.jpg" alt="Profile picture" class="profile-img" />
-      <p data-i18n="bio.summary"></p>
-      <p data-i18n="bio.objective" class="objective"></p>
-    </section>
+    <h2 data-i18n="projects.title"></h2>
+
+    <div class="project">
+      <h3><a href="projects/http_server.html" data-i18n="projects.http_server_title"></a></h3>
+      <p data-i18n="projects.http_server"></p>
+      <p><a href="https://github.com/paterson3c/http_server" target="_blank">🔗 GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <h3><a href="projects/practica_libpcap.html" data-i18n="projects.libpcap_title"></a></h3>
+      <p data-i18n="projects.libpcap"></p>
+      <p><a href="https://github.com/paterson3c/practica_libpcap" target="_blank">🔗 GitHub</a></p>
+    </div>
   </main>
 
-  <section class="certifications">
-    <h2 data-i18n="cert.title"></h2>
-    <ul>
-      <li data-i18n="cert.ccncert"></li>
-      <li data-i18n="cert.utad"></li>
-      <li data-i18n="cert.tryhackme"></li>
-    </ul>
-  </section> 
+  <section class="project future">
+    <h3 data-i18n="projects.coming_soon_title">🚧 More Projects Coming Soon</h3>
+    <p data-i18n="projects.coming_soon_desc">
+      I'm currently working on new security, networking, and backend-related projects. Stay tuned for updates!
+    </p>
+  </section>  
 
-  <section class="skills">
-    <h2 data-i18n="skills.title"></h2>
-    <ul>
-      <li data-i18n="skills.python"></li>
-      <li data-i18n="skills.c"></li>
-      <li data-i18n="skills.docker"></li>
-      <li data-i18n="skills.git"></li>
-      <li data-i18n="skills.linux"></li>
-      <li data-i18n="skills.cyber"></li>
-    </ul>
-  </section>
-
-  <section>
-    <div class="cv-links">
-      <a href="cv/CV_EN.pdf" target="_blank" data-i18n="download.cv_en"></a>
-      <a href="cv/CV_ES.pdf" target="_blank" data-i18n="download.cv_es"></a>
-      <!--<a href="cv/CV_FR.pdf" target="_blank" data-i18n="download.cv_fr"></a></-->
-    </div>
-  </section>
-  
   <footer>
     <p>© 2025 Mijaíl Sazhin Martín - MijailSM. <span data-i18n="footer.license"></span>
       <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
