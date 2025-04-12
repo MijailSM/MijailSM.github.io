@@ -1,7 +1,5 @@
 const projectPages = [
     { file: "http_server.html", key: "projects.http_server_title" },
-    { file: "films_api.html", key: "projects.films_api_title" },
-    { file: "library_api.html", key: "projects.library_api_title" },
     { file: "practica_libpcap.html", key: "projects.libpcap_title" }
 ];
 

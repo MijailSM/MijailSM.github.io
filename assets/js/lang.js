@@ -1,5 +1,5 @@
-const supportedLangs = ['en', 'es', 'fr'];
-const defaultLang = 'en';
+const supportedLangs = ['en', 'es'];
+const defaultLang = 'es';
 
 function setLang(lang) {
   if (!supportedLangs.includes(lang)) lang = defaultLang;
