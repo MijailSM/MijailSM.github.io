@@ -1,78 +1,78 @@
 {
-    "nav": {
-      "home": "Inicio",
-      "projects": "Proyectos",
-      "contact": "Contacto"
-    },
-    "bio": {
-      "summary": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
-      "objective": "💼 Buscando prácticas o posiciones junior en ciberseguridad, redes o desarrollo backend (a partir de junio de 2025)."
-    },
-    "download": {
-      "cv_en": "Descargar CV (EN)",
-      "cv_es": "Descargar CV (ES)"
-    },
-    "footer": {
-      "license": "Este sitio está licenciado bajo"
-    },
-    "projects": {
-      "title": "🧪 Proyectos seleccionados",
-      "http_server_title": "Servidor HTTP en C",
-      "http_server": "Servidor web de bajo nivel que gestiona solicitudes GET, POST y OPTIONS con sockets en C.",
-      "libpcap_title": "Analizador de tráfico ARP con libpcap",
-      "libpcap": "Captura y análisis de tráfico ARP con tramas Ethernet crudas en entorno Mininet.",
-      "coming_soon_title": "🚧 Más proyectos próximamente",
-      "coming_soon_desc": "Actualmente estoy trabajando en nuevos proyectos relacionados con ciberseguridad, redes y backend. ¡Muy pronto habrá novedades!"
-    },
-    "contact": {
-      "title": "Contacto",
-      "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
-    },
-    "cert": {
-      "title": "🎓 Certificaciones y Formación",
-      "ccncert": "Curso Introducción a la Ciberseguridad – CCN-CERT Atenea (2024)",
-      "hackthebox": "Avanzando en los laboratorios de ciberseguridad de HackTheBox"
-    },
-    "skills": {
-      "title": "🛠️ Habilidades Técnicas",
-      "python": "Python – ⭐⭐⭐⭐☆",
-      "c": "C – ⭐⭐⭐⭐☆",
-      "git": "Git / GitHub – ⭐⭐⭐☆☆",
-      "linux": "Linux – ⭐⭐⭐⭐☆",
-      "sql": "SQL - ⭐⭐⭐☆☆",
-      "java": "Java - ⭐⭐⭐☆☆"
-    },
-    "http": {
-      "title": "🖧 Servidor HTTP en C",
-      "desc": "Este proyecto es un servidor HTTP ligero escrito en C puro, diseñado para manejar solicitudes HTTP básicas mediante programación de sockets a bajo nivel.",
-      "features": "🔍 Funcionalidades clave",
-      "f1": "Soporta métodos GET, POST y OPTIONS.",
-      "f2": "Sin librerías externas: solo llamadas al sistema y sockets.",
-      "f3": "Análisis manual de cabeceras y contenido HTTP.",
-      "f4": "Gestión robusta de conexiones (accept, fork, send, close).",
-      "tech": "⚙️ Tecnologías usadas",
-      "learning": "📌 Aprendizajes",
-      "learning_text": "Profundicé en el protocolo TCP/IP, aprendí a analizar HTTP manualmente y practiqué la depuración de concurrencia y manejo de cabeceras a bajo nivel. Este proyecto consolidó mis conocimientos tanto en redes como en programación de sistemas.",
-      "back": "← Volver a Proyectos"
-    },
-    "libpcap": {
-      "title": "📡 Analizador de tráfico ARP con libpcap",
-      "desc": "Herramienta en Python para capturar, enviar y analizar tráfico ARP con tramas Ethernet. Desarrollada y probada en Mininet.",
-      "features": "🔍 Funcionalidades clave",
-      "f1": "Procesamiento de solicitudes y respuestas ARP",
-      "f2": "Caché ARP personalizada con sistema de locks",
-      "f3": "Soporte para ARP Gratuito",
-      "f4": "Herramientas de debug y pruebas documentadas",
-      "tech": "⚙️ Tecnologías usadas",
-      "learning": "📌 Aprendizajes",
-      "learning_text": "Aprendí redes de bajo nivel con libpcap, implementé generación e inspección de paquetes y validé comportamientos en entornos virtuales con Mininet.",
-      "back": "← Volver a Proyectos"
-    },
-    "project": {
-      "prev": "← Anterior",
-      "next": "Siguiente →",
-      "back": "← Volver a Proyectos"
-    }
-  
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "bio": {
+    "summary": "Estudiante de Ingeniería Informática con gran interés en ciberseguridad, redes y programación de bajo nivel. Este es mi espacio personal donde comparto proyectos técnicos y aprendizajes.",
+    "objective": "💼 Buscando prácticas o posiciones junior en ciberseguridad, redes o desarrollo backend (a partir de junio de 2025)."
+  },
+  "download": {
+    "cv_en": "Descargar CV (EN)",
+    "cv_es": "Descargar CV (ES)"
+  },
+  "footer": {
+    "license": "Este sitio está licenciado bajo"
+  },
+  "projects": {
+    "title": "🧪 Proyectos seleccionados",
+    "http_server_title": "Servidor HTTP en C",
+    "http_server": "Servidor web de bajo nivel que gestiona solicitudes GET, POST y OPTIONS con sockets en C.",
+    "libpcap_title": "Analizador de tráfico ARP con libpcap",
+    "libpcap": "Captura y análisis de tráfico ARP con tramas Ethernet crudas en entorno Mininet.",
+    "coming_soon_title": "🚧 Más proyectos próximamente",
+    "coming_soon_desc": "Actualmente estoy trabajando en nuevos proyectos relacionados con ciberseguridad, redes y backend. ¡Muy pronto habrá novedades!"
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "No dudes en escribirme a través de cualquiera de los siguientes canales:"
+  },
+  "cert": {
+    "title": "🎓 Certificaciones y Formación",
+    "ccncert": "Curso Introducción a la Ciberseguridad – CCN-CERT Atenea (2024)",
+    "hackthebox": "Avanzando en los laboratorios de ciberseguridad de HackTheBox"
+  },
+  "skills": {
+    "title": "🛠️ Habilidades Técnicas",
+    "python": "Python – ⭐⭐⭐⭐☆",
+    "c": "C – ⭐⭐⭐⭐☆",
+    "git": "Git / GitHub – ⭐⭐⭐☆☆",
+    "linux": "Linux – ⭐⭐⭐⭐☆",
+    "sql": "SQL - ⭐⭐⭐☆☆",
+    "java": "Java - ⭐⭐⭐☆☆"
+  },
+  "http": {
+    "title": "🖧 Servidor HTTP en C",
+    "desc": "Este proyecto es un servidor HTTP ligero escrito en C puro, diseñado para manejar solicitudes HTTP básicas mediante programación de sockets a bajo nivel.",
+    "features": "🔍 Funcionalidades clave",
+    "f1": "Soporta métodos GET, POST y OPTIONS.",
+    "f2": "Sin librerías externas: solo llamadas al sistema y sockets.",
+    "f3": "Análisis manual de cabeceras y contenido HTTP.",
+    "f4": "Gestión robusta de conexiones (accept, fork, send, close).",
+    "tech": "⚙️ Tecnologías usadas",
+    "learning": "📌 Aprendizajes",
+    "learning_text": "Profundicé en el protocolo TCP/IP, aprendí a analizar HTTP manualmente y practiqué la depuración de concurrencia y manejo de cabeceras a bajo nivel. Este proyecto consolidó mis conocimientos tanto en redes como en programación de sistemas.",
+    "back": "← Volver a Proyectos"
+  },
+  "libpcap": {
+    "title": "📡 Analizador de tráfico ARP con libpcap",
+    "desc": "Herramienta en Python para capturar, enviar y analizar tráfico ARP con tramas Ethernet. Desarrollada y probada en Mininet.",
+    "features": "🔍 Funcionalidades clave",
+    "f1": "Procesamiento de solicitudes y respuestas ARP",
+    "f2": "Caché ARP personalizada con sistema de locks",
+    "f3": "Soporte para ARP Gratuito",
+    "f4": "Herramientas de debug y pruebas documentadas",
+    "tech": "⚙️ Tecnologías usadas",
+    "learning": "📌 Aprendizajes",
+    "learning_text": "Aprendí redes de bajo nivel con libpcap, implementé generación e inspección de paquetes y validé comportamientos en entornos virtuales con Mininet.",
+    "back": "← Volver a Proyectos"
+  },
+  "project": {
+    "prev": "← Anterior",
+    "next": "Siguiente →",
+    "back": "← Volver a Proyectos"
   }
+  
+}
     
