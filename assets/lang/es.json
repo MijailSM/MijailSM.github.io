@@ -10,8 +10,7 @@
     },
     "download": {
       "cv_en": "Descargar CV (EN)",
-      "cv_es": "Descargar CV (ES)",
-      "cv_fr": "Descargar CV (FR)"
+      "cv_es": "Descargar CV (ES)"
     },
     "footer": {
       "license": "Este sitio está licenciado bajo"
@@ -20,10 +19,6 @@
       "title": "🧪 Proyectos seleccionados",
       "http_server_title": "Servidor HTTP en C",
       "http_server": "Servidor web de bajo nivel que gestiona solicitudes GET, POST y OPTIONS con sockets en C.",
-      "films_api_title": "API REST de Películas y Clientes",
-      "films_api": "API REST para gestionar películas, carritos y pedidos usando Python y Docker.",
-      "library_api_title": "Microservicios de Usuarios y Archivos",
-      "library_api": "Sistema de autenticación personalizado con tokens en arquitectura de microservicios.",
       "libpcap_title": "Analizador de tráfico ARP con libpcap",
       "libpcap": "Captura y análisis de tráfico ARP con tramas Ethernet crudas en entorno Mininet.",
       "coming_soon_title": "🚧 Más proyectos próximamente",
@@ -36,17 +31,16 @@
     "cert": {
       "title": "🎓 Certificaciones y Formación",
       "ccncert": "Curso Introducción a la Ciberseguridad – CCN-CERT Atenea (2024)",
-      "utad": "Curso de Verano Introducción a la Ciberseguridad – U-tad (2021)",
-      "tryhackme": "Avanzando en los laboratorios de ciberseguridad de TryHackMe"
+      "hackthebox": "Avanzando en los laboratorios de ciberseguridad de HackTheBox"
     },
     "skills": {
       "title": "🛠️ Habilidades Técnicas",
       "python": "Python – ⭐⭐⭐⭐☆",
       "c": "C – ⭐⭐⭐⭐☆",
-      "docker": "Docker – ⭐⭐⭐☆☆",
-      "git": "Git / GitHub – ⭐⭐⭐⭐☆",
+      "git": "Git / GitHub – ⭐⭐⭐☆☆",
       "linux": "Linux – ⭐⭐⭐⭐☆",
-      "cyber": "Redes y Ciberseguridad – ⭐⭐⭐⭐☆"
+      "sql": "SQL: ⭐⭐⭐☆☆",
+      "java": "Java: ⭐⭐⭐☆☆"
     },
     "http": {
       "title": "🖧 Servidor HTTP en C",
@@ -59,32 +53,6 @@
       "tech": "⚙️ Tecnologías usadas",
       "learning": "📌 Aprendizajes",
       "learning_text": "Profundicé en el protocolo TCP/IP, aprendí a analizar HTTP manualmente y practiqué la depuración de concurrencia y manejo de cabeceras a bajo nivel. Este proyecto consolidó mis conocimientos tanto en redes como en programación de sistemas.",
-      "back": "← Volver a Proyectos"
-    },
-    "library": {
-      "title": "🔐 Microservicios de Usuarios y Archivos",
-      "desc": "Este proyecto implementa autenticación y gestión de archivos mediante microservicios propios, sin depender de frameworks de autenticación externos.",
-      "features": "🔍 Funcionalidades clave",
-      "f1": "Autenticación basada en tokens (implementación propia)",
-      "f2": "Servicios separados de usuarios y archivos comunicándose vía HTTP",
-      "f3": "Endpoints para registro, descarga y subida de archivos",
-      "f4": "Construido sin usar JWT ni bibliotecas OAuth",
-      "tech": "⚙️ Tecnologías usadas",
-      "learning": "📌 Aprendizajes",
-      "learning_text": "Construí la lógica de autenticación desde cero, gestioné la separación de servicios y el enrutamiento, y profundicé en APIs REST y conceptos básicos de seguridad.",
-      "back": "← Volver a Proyectos"
-    },
-    "films": {
-      "title": "🎬 API REST de Películas y Clientes",
-      "desc": "API REST completa para gestionar un catálogo de películas, carritos de usuarios y pedidos. Desarrollada en Python con soporte Docker.",
-      "features": "🔍 Funcionalidades clave",
-      "f1": "Operaciones CRUD para películas y clientes",
-      "f2": "Lógica de carrito de compras y procesamiento de pedidos",
-      "f3": "Autenticación con roles: admin vs usuario",
-      "f4": "Dockerizado para facilitar el despliegue",
-      "tech": "⚙️ Tecnologías usadas",
-      "learning": "📌 Aprendizajes",
-      "learning_text": "Aprendí a estructurar APIs, gestionar control de acceso por roles, seguir estándares REST y usar Docker para contenerización.",
       "back": "← Volver a Proyectos"
     },
     "libpcap": {
